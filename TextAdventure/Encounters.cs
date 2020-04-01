@@ -1,6 +1,6 @@
 ﻿﻿using System;
 
-namespace TextAdventure
+ namespace TextAdventure
 {
     public class Encounters
     {
@@ -31,7 +31,6 @@ namespace TextAdventure
             Console.ReadKey();
             Combat(false, "Dark Wizard", 4,7);
         }
-        
         //encounter tools
 
         public static void RandomEncounter()

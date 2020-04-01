@@ -16,8 +16,9 @@ namespace TextAdventure
             {
                 Encounters.RandomEncounter();
             }
-            
+
         }
+       
 
         private static void Start()
         {
