@@ -11,11 +11,8 @@ namespace TextAdventure
         private static void Main(string[] args)
         {
             Start();
-            Encounters.FirstEncounter();
-            while (mainLoop)
-            {
-                Encounters.RandomEncounter();
-            }
+            currentPlayer.Run();
+
 
         }
        

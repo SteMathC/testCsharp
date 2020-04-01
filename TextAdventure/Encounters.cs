@@ -8,8 +8,6 @@
         //encounters
         public static void FirstEncounter()
         {
-            Skeleton skelly = new Skeleton();
-            Console.WriteLine(skelly.Health);  
             Console.WriteLine("you see a rusty sword at your feet, you grab it and charge the unexpecting skeleton");
             Console.WriteLine("The skeleton turns ...");
             Console.ReadKey();
