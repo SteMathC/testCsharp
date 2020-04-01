@@ -6,7 +6,7 @@ namespace TextAdventure
     public class Skeleton : ICreature
     {
         static Random rand = new Random();
-        public int health;
+        public int health = rand.Next(1,5);
 
         public int Power
         {
@@ -18,5 +18,6 @@ namespace TextAdventure
             get => health;
             set => health = value;
         }
+    
     }
 }
